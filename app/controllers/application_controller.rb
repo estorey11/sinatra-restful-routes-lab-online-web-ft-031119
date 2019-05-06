@@ -5,5 +5,5 @@ class ApplicationController < Sinatra::Base
   end
 
   # code actions here!
-  
+  get '/recipe/new'
 end
